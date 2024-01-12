@@ -1,0 +1,22 @@
+.container {
+}
+
+.img {
+  width: 400px;
+  height: 150px;
+  border-radius: 10px;
+  opacity: 80%;
+}
+
+.text {
+  color: #efefef;
+  width: 100px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 5px;
+  text-align: left;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 280px;
+  width: max-content;
+}
