@@ -10,7 +10,7 @@ const Header = ({ title, subtitle, logo }: Props) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
-        {title} <img src={logo} alt="logo" className={styles.img} />
+        {title} <img src={logo} alt="logo" className={styles.logo} />
       </div>
 
       <div className={styles.subtitle}>{subtitle}</div>
