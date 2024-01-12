@@ -1,20 +1,20 @@
 .wrapper {
-  max-width: 360px;
-  max-height: 800px;
+  margin-left: 80px;
+  margin-top: 120px;
 }
 
 .title {
-  text-align: center;
   font-size: 48px;
+  display: flex;
 }
 
 .subtitle {
   text-align: center;
   font-size: 24px;
   margin-left: 40px;
-  word-spacing: -15px;
   width: max-content;
 }
 
-.img {
+.logo {
+  margin-right: 30px;
 }
