@@ -39,13 +39,13 @@ const JoinChallenge = () => {
   const { datalist } = useLoaderData<typeof loader>();
   console.log(datalist);
   return (
-    <div className="flex w-full flex-wrap md:flex-nowrap gap-4">
+    <div className="flex w-full flex-wrap md:flex-nowrap gap-4 flex-col">
       <Header
         title="챌린지 참가"
         subtitle="올해는 다르다! 새로운 도전을 해봐요!"
         logo=""
       />
-      <div>
+      <div className="flex justify-center">
         {datalist.map((item) => (
           <ChallengeElement
             key={item.description}
