@@ -1,16 +1,16 @@
 import styles from "./Header.module.css";
-import Message from "./Message.svg";
 
 interface Props {
   title: string;
   subtitle: string;
+  logo: string;
 }
 
-const Header = ({ title, subtitle }: Props) => {
+const Header = ({ title, subtitle, logo }: Props) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
-        {title} <img src={Message} alt="logo" className={styles.img} />
+        {title} <img src={logo} alt="logo" className={styles.img} />
       </div>
 
       <div className={styles.subtitle}>{subtitle}</div>
