@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 360px;
+  max-height: 800px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 24px;
+  margin-left: 40px;
+  word-spacing: -15px;
+}
+
+.img {
+}
