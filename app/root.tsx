@@ -8,8 +8,15 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import normalizeCSS from "~/styles/normalize.css";
+import globalCSS from "~/styles/global.css";
+import fontsCSS from "~/styles/fonts.css";
+import "nes.css/css/nes.min.css";
 
 export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: normalizeCSS },
+  { rel: "stylesheet", href: globalCSS },
+  { rel: "stylesheet", href: fontsCSS },
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 
