@@ -7,3 +7,27 @@
   font-family: "Neo";
   src: url("/fonts/Neo.ttf");
 }
+
+@font-face {
+  font-family: "nanumSquare";
+  src: url("/fonts/nanumSquare/light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "nanumSquare";
+  src: url("/fonts/nanumSquare/regular.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "nanumSquare";
+  src: url("/fonts/nanumSquare/bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "nanumSquare";
+  src: url("/fonts/nanumSquare/extrabold.ttf");
+  font-weight: 900;
+}
