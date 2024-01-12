@@ -45,7 +45,7 @@ const JoinChallenge = () => {
         subtitle="올해는 다르다! 새로운 도전을 해봐요!"
         logo=""
       />
-      <div className="flex justify-center">
+      <div className="flex justify-center flex-col">
         {datalist.map((item) => (
           <ChallengeElement
             key={item.description}
