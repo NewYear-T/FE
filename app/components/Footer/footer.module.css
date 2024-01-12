@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  max-width: 500px;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+}
+
+.center-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.btn-img {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-txt {
+  font-size: 10px;
+}
