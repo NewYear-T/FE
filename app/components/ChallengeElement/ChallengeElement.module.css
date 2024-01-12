@@ -1,10 +1,10 @@
 .container {
-  margin-top: 20px;
-  margin-left: 25px;
+  position: relative;
+  width: 400px;
 }
 
 .img {
-  width: 350px;
+  width: 400px;
   height: 150px;
   border-radius: 10px;
   opacity: 80%;
@@ -12,13 +12,16 @@
 
 .text {
   color: #efefef;
-  height: 30px;
+  width: max-width;
+  height: 100%;
   font-size: 30px;
   border-radius: 5px;
-  position: fixed;
-  margin-top: -50px;
-  margin-left: 200px;
+  text-align: left;
+  position: absolute;
+  top: 0px;
+  right: 50px;
   width: max-content;
   display: flex;
   flex-direction: column;
+  background: rgba(0, 0, 0, 0.4);
 }

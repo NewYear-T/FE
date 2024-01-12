@@ -14,7 +14,9 @@ const ChallengeButton = ({ title, img }: Props) => {
     <div className={styles.container}>
       <img src={img} alt="background Img" className={styles.img} />
       <button className={styles.text} onClick={handleClick}>
-        {title}
+        <span>{title}</span>
+        <span>{title}</span>
+        <span>{title}</span>
       </button>
     </div>
   );
