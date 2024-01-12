@@ -12,6 +12,7 @@ import normalizeCSS from "~/styles/normalize.css";
 import globalCSS from "~/styles/global.css";
 import fontsCSS from "~/styles/fonts.css";
 import { NextUIProvider } from "@nextui-org/react";
+import Footer from "./components/Footer";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: normalizeCSS },
@@ -32,6 +33,7 @@ export default function App() {
       <body>
         <NextUIProvider>
           <Outlet />
+          <Footer />
           <ScrollRestoration />
           <Scripts />
           <LiveReload />
