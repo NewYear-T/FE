@@ -13,6 +13,7 @@
   font-size: 24px;
   margin-left: 40px;
   word-spacing: -15px;
+  width: max-content;
 }
 
 .img {
